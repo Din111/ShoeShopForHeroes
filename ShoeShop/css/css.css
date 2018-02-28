@@ -1,0 +1,101 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 2px solid blue;
+  background-color: c5eeff;
+}
+.navigation {
+	border: 2px solid black;
+	height: 13vh;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-color: c5eeff;
+}
+.logo {
+	border: 2px solid black;
+	height: 13vh;
+	width:14%;
+	float: left;
+	padding-top: 10px;
+
+}
+.userinfo{
+	border: 2px solid black;
+	height: 13vh;
+	width: 25%;
+	float: right;
+}
+.user{
+	height: 13vh;
+	width: 30%;
+	float: right;
+	border: 2px solid blue;
+
+}
+.userinfo a{
+	height: 13vh;
+	float: left;
+	width: 50%;
+	padding: 14px;
+	font-size: 30px;
+	margin: auto;
+	margin-left: 60px;
+	border: 2px solid pink;
+	padding-top: 20px;
+	color: black;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: c5eeff;
+}
+img {
+	width: 100%;
+	height: 80%;
+}
+
+.container .box {
+  width: 500px;
+  height: 70vh;
+  background-color: c5eeff;
+}
+.box p{
+	height:14vh ;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	background-color: white;
+}
+.footer{
+	height: 11vh;
+	width: 30%;
+	position: center;
+	margin-left: 35%;
+}
+.items{
+	float: left;
+	height: inherit;
+	width: 75%;
+	background-color: white;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
+.number{
+	float: right;
+	height: inherit;
+	width: 25%;
+	background-color: orange;
+	font-size: 40px;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+}
